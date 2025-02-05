@@ -8,8 +8,6 @@ export default function DashboardLayout({
   children: React.ReactNode;
 }>) {
 
-  const date = new Date()
-
   return (
     <>
       <header className='header'>
